@@ -18,10 +18,9 @@ uses
   MVCFramework.Signal,
   MVCFramework.WebSocket,
   MVCFramework.WebSocket.Server,
-
-  DemoWebSocket.Server.Rotas.DemoWebSocket in 'Server\rotas\DemoWebSocket.Server.Rotas.DemoWebSocket.pas',
-  DemoWebSocket.Server.Modules.DemosWebSocket in 'Server\modules\DemoWebSocket.Server.Modules.DemosWebSocket.pas' {WebSocket: TWebModule},
-  DemoWebSocket.Server.Controller.WebSocket in 'Server\controller\DemoWebSocket.Server.Controller.WebSocket.pas';
+  DemoWebSocket.Server.Rotas.DemoWebSocket in 'rotas\DemoWebSocket.Server.Rotas.DemoWebSocket.pas',
+  DemoWebSocket.Server.Modules.DemosWebSocket in 'modules\DemoWebSocket.Server.Modules.DemosWebSocket.pas' {WebSocket: TWebModule},
+  DemoWebSocket.Server.Controller.WebSocket in 'controller\DemoWebSocket.Server.Controller.WebSocket.pas';
 
 {$R *.res}
 
